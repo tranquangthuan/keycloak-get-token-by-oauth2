@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          keycloak:
+            token-uri: http://localhost:8080/realms/comado_realm/protocol/openid-connect/token
+        registration:
+          keycloak:
+            client-id: test
+            client-secret: cx39y9pzwQE6gPfsfhEbcDdpP5oeuoZr
+            authorization-grant-type: client_credentials
