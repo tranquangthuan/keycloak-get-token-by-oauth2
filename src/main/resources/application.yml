@@ -6,7 +6,7 @@ spring:
       client:
         provider:
           keycloak:
-            token-uri: http://localhost:8080/realms/comado_realm/protocol/openid-connect/token
+            token-uri: http://localhost:8080/realms/myrealm/protocol/openid-connect/token
         registration:
           keycloak:
             client-id: test
